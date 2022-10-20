@@ -1,0 +1,82 @@
+﻿Build started 12/12/2012 6:36:50 PM.
+     1>Project "C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\EliasJosh_OpenGL.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\glew-1.9.0\include" /I"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\glfw-2.7.7.bin.WIN32\include" /I"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\assimp--3.0.1270-sdk\include" /I"C:\Users\Josh\Desktop\EliasJosh_OpenGL\assimp--3.0.1270-sdk\include" /ZI /nologo /W4 /WX- /Od /Oy- /D CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp GLWindow.cpp InputManager.cpp main.cpp Shader.cpp ShaderManager.cpp ShaderProgram.cpp TextureManager.cpp ThreadManager.cpp
+         ThreadManager.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\threadmanager.cpp(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         TextureManager.cpp
+         ShaderProgram.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+         ShaderManager.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+         Shader.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\shader.cpp(6): warning C4245: 'initializing' : conversion from 'int' to 'GLuint', signed/unsigned mismatch
+         main.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\main.cpp(36): warning C4100: 'nCmdShow' : unreferenced formal parameter
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\main.cpp(35): warning C4100: 'lpCmdLine' : unreferenced formal parameter
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\main.cpp(34): warning C4100: 'hPrevInstance' : unreferenced formal parameter
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\main.cpp(33): warning C4100: 'hInstance' : unreferenced formal parameter
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\main.cpp(39): warning C4189: 'numOfCores' : local variable is initialized but not referenced
+         InputManager.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+         GLWindow.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+         GameEngine.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\glfw-2.7.7.bin.win32\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+         Generating Code...
+     1>c:\users\josh\desktop\eliasjosh_opengl\eliasjosh_opengl\shaderprogram.cpp(75): warning C4706: assignment within conditional expression
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\EliasJosh_OpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\glew-1.9.0\lib" /LIBPATH:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\glfw-2.7.7.bin.WIN32\lib-msvc110" /LIBPATH:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\assimp--3.0.1270-sdk\lib\assimp_debug-dll_win32" glew32.lib GLFW.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\EliasJosh_OpenGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\EliasJosh_OpenGL.lib" /MACHINE:X86 Debug\GameEngine.obj
+         Debug\GLWindow.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\Shader.obj
+         Debug\ShaderManager.obj
+         Debug\ShaderProgram.obj
+         Debug\TextureManager.obj
+         Debug\ThreadManager.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>GLFW.lib(enable.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(enable.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(glext.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(glext.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(init.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(init.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(input.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(input.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_enable.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_enable.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_fullscreen.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_fullscreen.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_glext.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_glext.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_init.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_init.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_time.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_time.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(win32_window.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(win32_window.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+     1>GLFW.lib(window.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'GLFW.lib(window.obj)' or at 'C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\vc110.pdb'; linking object as if no debug info
+         EliasJosh_OpenGL.vcxproj -> C:\Users\Josh\Desktop\EliasJosh_OpenGL\Debug\EliasJosh_OpenGL.exe
+     1>Done Building Project "C:\Users\Josh\Desktop\EliasJosh_OpenGL\EliasJosh_OpenGL\EliasJosh_OpenGL.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.41

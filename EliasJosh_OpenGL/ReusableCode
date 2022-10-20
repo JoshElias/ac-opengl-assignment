@@ -1,0 +1,16 @@
+/*
+
+TRY CATCH
+
+try {
+
+}  catch( std::exception& err ) {
+			fprintf(stdout, "Exception Found: %s", err.what());
+} catch ( ... ) {
+			fprintf(stdout,"Unknown Exception");
+}
+
+
+
+
+*/
